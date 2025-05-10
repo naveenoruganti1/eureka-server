@@ -16,6 +16,4 @@ WORKDIR /datasuite/eureka-server
 # Copy jar file from build directory into new created directory
 COPY build/libs/eureka-server-1.0.jar .
 
-EXPOSE 8080
-
 CMD ["java", "-jar", "eureka-server-1.0.jar"]
